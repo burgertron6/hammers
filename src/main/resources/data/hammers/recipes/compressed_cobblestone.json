@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:cobblestone"
+    }
+  },
+  "result": {
+    "item": "hammers:compressed_cobblestone",
+    "count": 1
+  }
+}

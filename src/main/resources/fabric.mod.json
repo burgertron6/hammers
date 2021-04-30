@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "hammers",
+  "version": "${version}",
+
+  "name": "Hammers",
+  "description": "A simple 3x3 mining tool mod.",
+  "authors": [
+    "Grant Mulholland"
+  ],
+  "contact": {
+    "homepage": "https://pogu.neocities.org/",
+    "sources": "https://github.com/grantlmul/hammers"
+  },
+
+  "license": "GPL-3.0-only",
+  "icon": "assets/hammers/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "xyz.grantlmul.hammers.Hammers"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+  }
+}
