@@ -1,0 +1,10 @@
+{
+  "block.hammers.compressed_cobblestone": "Compressed Cobblestone",
+  "item.hammers.compressed_cobblestone": "Compressed Cobblestone",
+  "item.hammers.wooden_hammer": "Wooden Hammer",
+  "item.hammers.stone_hammer": "Stone Hammer",
+  "item.hammers.iron_hammer": "Iron Hammer",
+  "item.hammers.golden_hammer": "Golden Hammer",
+  "item.hammers.diamond_hammer": "Diamond Hammer",
+  "item.hammers.netherite_hammer": "Netherite Hammer"
+}
