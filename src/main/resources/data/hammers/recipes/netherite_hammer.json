@@ -7,7 +7,7 @@
   ],
   "key": {
     "A": {
-      "tag": "c:netherite_blocks"
+      "item": "minecraft:netherite_block"
     },
     "B": {
       "tag": "minecraft:logs"

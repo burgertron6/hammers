@@ -7,7 +7,7 @@
   ],
   "key": {
     "A": {
-      "tag": "c:iron_blocks"
+      "item": "minecraft:iron_block"
     },
     "B": {
       "tag": "minecraft:logs"
