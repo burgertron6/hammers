@@ -9,12 +9,14 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
+import static xyz.grantlmul.hammers.mixin.PickaxeItemAccessor.GetEffectives;
+
 public class Utils {
     // true if mined
     static boolean MineIfAble(BlockPos pos, World world, ToolMaterial material, LivingEntity miner) {
         BlockState block = world.getBlockState(pos);
         ToolManagerImpl.Entry entry = ToolManagerImpl.entry(world.getBlockState(pos).getBlock());
-        if (material.getMiningLevel() >= entry.getMiningLevel(FabricItemTags.PICKAXES) && ((AbstractBlock.AbstractBlockState)block).getHardness(world, pos) > 0) {
+        if (material.getMiningLevel() >= entry.getMiningLevel(FabricItemTags.PICKAXES) && ((AbstractBlock.AbstractBlockState)block).getHardness(world, pos) > 0 && GetEffectives().contains(block.getBlock())) {
             world.breakBlock(pos, true, miner);
         }
         return false;
